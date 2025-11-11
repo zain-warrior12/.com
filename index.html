@@ -694,7 +694,7 @@
 
             <button onclick="" class="download-mod-btn" id="downloadModBtn">
                 <span class="icon">⬇️</span>
-                DOWNLOAD MOD APK
+                <span id="downloadBtnText">DOWNLOAD MOD APK</span>
             </button>
         </div>
     </div>
@@ -898,7 +898,7 @@
             }
         });
 
-        function showDetailsModal(app) {
+        function showDetailsModal(app, isPCSoftware = false) {
             const modalIcon = document.getElementById('modalAppIcon');
             modalIcon.innerHTML = `<img src="${app.iconImg}" alt="${app.name}" onerror="this.style.display='none'">`;
             modalIcon.className = `app-icon-large ${app.iconClass}`;
@@ -908,6 +908,14 @@
             document.getElementById('modalSize').textContent = app.size;
             document.getElementById('modalVersion').textContent = app.version;
             document.getElementById('modalRating').textContent = app.rating;
+
+            // Update button text based on type
+            const downloadBtnText = document.getElementById('downloadBtnText');
+            if (isPCSoftware) {
+                downloadBtnText.textContent = 'DOWNLOAD SOFTWARE';
+            } else {
+                downloadBtnText.textContent = 'DOWNLOAD MOD APK';
+            }
 
             detailsModal.style.display = 'flex';
         }
@@ -1075,6 +1083,10 @@
             document.getElementById('modalSize').textContent = software.size;
             document.getElementById('modalVersion').textContent = software.version;
             document.getElementById('modalRating').textContent = software.rating;
+
+            // Update button text for PC software
+            const downloadBtnText = document.getElementById('downloadBtnText');
+            downloadBtnText.textContent = 'DOWNLOAD SOFTWARE';
 
             detailsModal.style.display = 'flex';
         }
