@@ -1,67 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>ZAIN WARRIOR GAMER</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<title>ZAIN WARRIOR GAMER</title>
-<link rel="stylesheet" href="styles.css">
-<!-- Change the href to point to your locally hosted image -->
-<link rel="icon" href="favicon.png" type="image/png">
-<!-- Or if you put it in an images folder: -->
-<!-- <link rel="icon" href="/images/favicon.png" type="image/png"> -->
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-   <script scr="script.js"></script>
-
-    <script src="script.js"></script>
-
-
-    <script src="script.js"></script>
-
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script> <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script> <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-
-    <script src="script.js"></script> <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-    <script src="script.js"></script>
-   
-<style>
-   
-</style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/png">
 </head>
 
 <body class="loading" oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;">
+
     <div class="skip-animation-overlay active" id="skipOverlay"></div>
     <div class="skip-hint active" id="skipHint">👆 Click to skip animation</div>
     <div class="stars"></div>
 
-    <!-- Watermark -->
     <div class="watermark" id="watermark">
         <div class="watermark-icon">▶️</div>
         <div class="watermark-text">
@@ -70,12 +26,10 @@
         </div>
     </div>
 
-    <!-- AI Chat Button -->
     <div class="ai-chat-button" id="aiChatButton">
         <div class="ai-icon" style="font-size: 20px; font-weight: 700; letter-spacing: 1px;">AI</div>
     </div>
 
-    <!-- AI Chat Container -->
     <div class="ai-chat-container" id="aiChatContainer">
         <div class="ai-chat-header">
             <div class="ai-chat-header-left">
@@ -92,8 +46,7 @@
             <div class="ai-message ai">
                 <div class="ai-message-avatar" style="font-size: 16px; font-weight: 700;">AI</div>
                 <div class="ai-message-content">
-                    Hi! I'm your AI assistant. I can help you find the perfect APK, answer questions, and provide
-                    recommendations. How can I assist you today?
+                    Hi! I'm your AI assistant. I can help you find the perfect APK, answer questions, and provide recommendations. How can I assist you today?
                 </div>
             </div>
         </div>
@@ -114,7 +67,6 @@
         <h1>Zain Apks Hub</h1>
         <p>Download Latest Modded Apks By ZAIN WARRIOR</p>
 
-        <!-- Tab Navigation -->
         <div class="tab-navigation">
             <button class="tab-btn active" data-tab="mobile">📱 Mobile Apps</button>
             <button class="tab-btn" data-tab="pc">💻 PC Software</button>
@@ -128,7 +80,6 @@
     </header>
 
     <main class="main-content">
-        <!-- Mobile Apps Tab Content -->
         <div class="tab-content active" id="mobile-content">
             <h2 class="section-title">Download Apks</h2>
             <div class="apks-grid" id="apksGrid"></div>
@@ -139,13 +90,11 @@
             </div>
         </div>
 
-        <!-- PC Software Tab Content -->
         <div class="tab-content" id="pc-content">
             <h2 class="section-title">Download PC Software</h2>
             <div class="apks-grid" id="pcGrid"></div>
         </div>
 
-        <!-- Movies Tab Content -->
         <div class="tab-content" id="movies-content">
             <h2 class="section-title">Download Movies</h2>
             <div class="apks-grid" id="moviesGrid"></div>
@@ -156,11 +105,9 @@
         <p>Copyright © 2025 ZAIN Apks Hub | All Rights Reserved</p>
     </footer>
 
-    <!-- App Details Modal -->
     <div class="modal-overlay" id="detailsModal">
         <div class="details-modal-container">
             <button class="close-btn" id="detailsCloseBtn">&times;</button>
-
             <div class="app-icon-large" id="modalAppIcon">M</div>
             <h2 id="modalAppName">Movie Hub</h2>
             <p class="modal-status" id="modalAppStatus">Premium Unlocked</p>
@@ -184,94 +131,52 @@
                 </div>
             </div>
 
-            <button onclick="" class="download-mod-btn" id="downloadModBtn">
+            <button class="download-mod-btn" id="downloadModBtn">
                 <span class="icon">⬇️</span>
                 <span id="downloadBtnText">DOWNLOAD MOD APK</span>
             </button>
         </div>
     </div>
 
-    <!-- Unlock Tasks Modal -->
     <div class="modal-overlay" id="unlockModal" style="display: none;">
         <div class="unlock-modal-container">
             <button class="close-btn" id="unlockCloseBtn">&times;</button>
-
             <div class="modal-header">
                 <h1 id="unlockTitle">Unlock Premium Download</h1>
                 <p>Follow our channels to access premium mods:</p>
             </div>
 
             <div class="modal-body">
-                <button class="social-btn telegram" id="telegramBtn" data-task="telegram">
-                    <span class="icon">📱</span>
-                    Join Telegram Channel
-                </button>
-
-                <button class="social-btn youtube" id="youtubeBtn" data-task="youtube">
-                    <span class="icon">▶️</span>
-                    Subscribe on YouTube
-                </button>
-
-                <button class="social-btn telegram-second" id="telegram2Btn" data-task="telegram2">
-                    <span class="icon">📱</span>
-                    subscribe second channel
-                </button>
-
-                <button class="social-btn instagram" id="instagramBtn" data-task="instagram">
-                    <span class="icon">📷</span>
-                    Follow on Instagram
-                </button>
+                <button class="social-btn telegram" id="telegramBtn" data-task="telegram"><span class="icon">📱</span>Join Telegram Channel</button>
+                <button class="social-btn youtube" id="youtubeBtn" data-task="youtube"><span class="icon">▶️</span>Subscribe on YouTube</button>
+                <button class="social-btn telegram-second" id="telegram2Btn" data-task="telegram2"><span class="icon">📱</span>subscribe second channel</button>
+                <button class="social-btn instagram" id="instagramBtn" data-task="instagram"><span class="icon">📷</span>Follow on Instagram</button>
             </div>
 
             <p class="info-text">After following all channels, the download will be unlocked.</p>
-
-            <button class="unlock-btn" id="unlockDownloadBtn" disabled>
-                <span class="icon">👍</span>
-                UNLOCK DOWNLOAD
-            </button>
+            <button class="unlock-btn" id="unlockDownloadBtn" disabled><span class="icon">👍</span>UNLOCK DOWNLOAD</button>
         </div>
     </div>
 
-    <!-- Image Lightbox -->
     <div class="image-lightbox" id="imageLightbox">
-        <div class="lightbox-content">
-            <button class="lightbox-close" id="lightboxClose">&times;</button>
-            <img src="" alt="" class="lightbox-image" id="lightboxImage">
-            <div class="lightbox-title" id="lightboxTitle"></div>
-        </div>
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img src="" class="lightbox-image" id="lightboxImage">
+        <div class="lightbox-title" id="lightboxTitle"></div>
     </div>
 
-    <!-- Game Parts Modal (Admin Mode Only) -->
     <div class="game-parts-modal" id="gamePartsModal">
         <div class="game-parts-container">
             <button class="game-parts-close" id="gamePartsClose">&times;</button>
-
-            <div class="game-parts-header">
-                <h2 id="gamePartsTitle">🎮 GAME PARTS</h2>
-                <p id="gamePartsSubtitle">Download all parts to install the game</p>
-            </div>
-
-            <div class="game-parts-list" id="gamePartsList">
-                <!-- Parts will be dynamically added here -->
-            </div>
+            <h2 id="gamePartsTitle">🎮 GAME PARTS</h2>
+            <p id="gamePartsSubtitle">Download all parts to install the game</p>
+            <div class="game-parts-list" id="gamePartsList"></div>
         </div>
     </div>
-       
-    <script src="script.js"></script>
+
+   <!-- Load JS safely -->
+<script defer src="mainjs.js"></script>
 </body>
-
-
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
+</html>
