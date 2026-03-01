@@ -1414,10 +1414,10 @@ socialButtons.forEach(button => {
 
         // Open social media link
         const urls = {
-            telegram: 'https://t.me/zainwarrior1',
+            telegram: 'https://t.me/zainwarrioryt',
             youtube: 'https://youtube.com/@zainwarriorgamer',
             telegram2: 'https://www.youtube.com/channel/UCs5FYazuXpTmD3dhXhOeDMA',
-            instagram: 'https://www.instagram.com/md.zain_a/'
+            instagram: 'https://www.instagram.com/md.zain_ans/'
         };
 
         window.open(urls[task], '_blank');
@@ -1774,5 +1774,6 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
         setTimeout(addImageClickHandlers, 300);
     });
 });
+
 
 
